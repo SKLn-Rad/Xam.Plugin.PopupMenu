@@ -2,6 +2,9 @@
 A simple popup menu for Xamarin Forms.
 This project is not supposed to be feature rich, it is simple a ready quick and lightweight implementation for when you need a menu displayed over a view.
 
+## Images
+![alt text](http://i.imgur.com/eWWPDov.png "Popup Menu 1.1.0")
+
 ## Changelog
 * Version 1.1.0 -> Support binding via the ItemsSourceProperty
 * Version 1.0.0 -> Internal only (Don't use this one)
