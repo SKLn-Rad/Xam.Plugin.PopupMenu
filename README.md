@@ -18,6 +18,7 @@ iOS Only) Call the PopupEffect.Init method to make sure the linker picks this up
 1) Create a new PopupMenu Object
 2) Either manually set the ItemsSource, or use SetBinding
 3) Call ShowPopup on the PopupMenu, passing in the root view you wish for the popup to inherit from
+4) Attach an event to OnItemSelected, this will return the PopupMenu and the selected string
 
 ## iOS Specifics
 * At the moment, the cancel button text can be changed via the PopupEffect object in the iOS project
