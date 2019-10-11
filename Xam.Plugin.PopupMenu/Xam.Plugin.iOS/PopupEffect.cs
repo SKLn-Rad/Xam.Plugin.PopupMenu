@@ -32,7 +32,7 @@ namespace Xam.Plugin.iOS
                 Effect.Parent.OnPopupRequest += OnPopupRequest;
         }
 
-        void OnPopupRequest(View view)
+        private void OnPopupRequest(View view)
         {
             if (Effect.Parent.ItemsSource == null)
                 return;
@@ -78,7 +78,7 @@ namespace Xam.Plugin.iOS
             }
 
             // Present
-            RootViewController.PresentViewController(actionSheetAlert, true, null);
+            RootViewController.ShowViewController(actionSheetAlert, RootViewController);
         }
 
         protected override void OnDetached()
